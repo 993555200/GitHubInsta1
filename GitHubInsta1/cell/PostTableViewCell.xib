@@ -29,8 +29,8 @@
                                             <constraint firstAttribute="width" constant="60" id="jzt-zE-Qz8"/>
                                         </constraints>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="fullName" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ofn-UH-2Ce">
-                                        <rect key="frame" x="80" y="30" width="351" height="20.5"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="fullName" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ofn-UH-2Ce">
+                                        <rect key="frame" x="78" y="30" width="351" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -79,6 +79,11 @@
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="nameLabel" destination="ofn-UH-2Ce" id="Svg-Ld-S4P"/>
+                <outlet property="postImage" destination="cx7-1N-HQC" id="hNr-Pi-e9k"/>
+                <outlet property="postImage1" destination="hBF-km-7yU" id="d03-Ek-mk0"/>
+            </connections>
             <point key="canvasLocation" x="-83.333333333333343" y="82.03125"/>
         </tableViewCell>
     </objects>
