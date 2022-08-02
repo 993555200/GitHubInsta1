@@ -9,13 +9,6 @@ import UIKit
 
 class PostTableViewCell: UITableViewCell {
     
-    @IBOutlet weak var profileImage: UIImageView!
-    
-    @IBOutlet weak var NameLabel: UILabel!
-    
-    @IBOutlet weak var postImage: UIImageView!
-    
-    @IBOutlet weak var postImage1: UIImageView!
     
     override func awakeFromNib() {
         super.awakeFromNib()

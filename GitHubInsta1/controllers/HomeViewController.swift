@@ -25,7 +25,9 @@ class HomeViewController:BaseViewController,UITableViewDelegate,UITableViewDataS
         setNavigationBar()
         
         
-        items.append(Post(profile_Im: "Bro1", fullName: "Habi", post_Im: "person8", post_Im1: "person3"))
+        items.append(Post(fullName: "Habibi"))
+        items.append(Post(fullName: "Uxc_007"))
+        //items.append(Post(profile_Im: "Bro1", fullName: "Habi", post_Im: "person8", post_Im1: "person3"))
     }
     
     func setNavigationBar(){
@@ -56,10 +58,10 @@ class HomeViewController:BaseViewController,UITableViewDelegate,UITableViewDataS
             let item = items[indexPath.row]
             let cell = Bundle.main.loadNibNamed("PostTableViewCell", owner: self, options: nil)?.first as! PostTableViewCell
            
-            cell.profileImage.image = UIImage(named: item.profile_Im)
-            cell.NameLabel.text = item.fullName
-           cell.postImage.image = UIImage(named: item.post_Im)
-         cell.postImage1.image = UIImage(named: item.post_Im1)
+            //cell.profileImage.image = UIImage(named: item.profile_Im!)
+                // cell.NameLabel.text = item.fullName
+           //cell.postImage.image = UIImage(named: item.post_Im!)
+         //cell.postImage1.image = UIImage(named: item.post_Im1!)
             return cell
         }
         
