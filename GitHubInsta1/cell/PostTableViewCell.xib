@@ -59,10 +59,10 @@
                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="1LF-PP-fo1">
                         <rect key="frame" x="0.0" y="80" width="441" height="345"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="peson3" translatesAutoresizingMaskIntoConstraints="NO" id="cx7-1N-HQC">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="miyagi" translatesAutoresizingMaskIntoConstraints="NO" id="cx7-1N-HQC">
                                 <rect key="frame" x="0.0" y="0.0" width="220.5" height="345"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="peson8" translatesAutoresizingMaskIntoConstraints="NO" id="hBF-km-7yU">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tommy" translatesAutoresizingMaskIntoConstraints="NO" id="hBF-km-7yU">
                                 <rect key="frame" x="220.5" y="0.0" width="220.5" height="345"/>
                             </imageView>
                         </subviews>
@@ -84,7 +84,7 @@
     </objects>
     <resources>
         <image name="Bro1" width="1992" height="1994"/>
-        <image name="peson3" width="640" height="640"/>
-        <image name="peson8" width="640" height="640"/>
+        <image name="miyagi" width="778" height="1280"/>
+        <image name="tommy" width="630" height="1280"/>
     </resources>
 </document>
